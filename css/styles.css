@@ -1,0 +1,214 @@
+/*******************************   TinDog Project  *****************************/
+
+/************* Elements *************/
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 900;
+  size: 3.5rem;
+  line-height: 1.5;
+}
+
+h3,
+h2 {
+  font-weight: 700;
+}
+
+/************* Sections **************/
+.white-section {
+  background-color: #fff;
+}
+
+.coloured-section {
+  background-color:#ff4c68 ;
+  color: #fff;
+}
+
+.coloured-section.orange-coloured-section {
+  background-color: #ff6d6d;
+}
+
+/************* Navbar **************/
+.nav-item {
+  padding: 0 1rem;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+
+/************* Title Section **************/
+#title {
+  height: 600px;
+}
+
+.container-fluid {
+  padding: 3% 13%;
+  text-align: left;  
+}
+
+.iphone-image {
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+/************* Features **************/
+#features {
+  position: relative;
+  padding: 7% 12%;
+}
+
+.feature-box p {
+  padding: 0 12%;
+  color: grey;
+}
+
+.feature-icons {
+  color: #ff6d6d;
+}
+
+.feature-icons:hover {
+  color: #ff4c68;
+}
+
+/************* Testimonials **************/
+#testimonials {
+  padding-bottom: 5%;
+}
+
+#testimonials h2 {
+  padding: 3rem 9rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+#testimonials img {
+  width: 160px;
+  margin-right: 1.5rem;
+  border-radius: 100%;
+}
+
+/************* Press **************/
+#press img {
+  margin: 2rem auto 3rem;
+  width: 150px;
+}
+
+/************* Carousel **************/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  margin-top: 180px;
+  width: 3rem;
+  height: 3rem;
+}
+
+/************* Pricing **************/
+#pricing {
+  padding: 75px;
+}
+
+.pricing-cards {
+  padding: 3% 2%;
+}
+
+.buttonsofcards {
+  width: 100%;
+}
+
+.card-body h2 {
+  font-size: 40px;
+}
+
+.card-header h3 {
+  font-size: 21px;
+}
+
+/************* Call to Action **************/
+#cta {
+  padding: 7rem;
+  line-height: 3;
+}
+
+#cta h1 {
+  padding: 0 12rem;
+}
+
+/************* Footer **************/
+#footer {
+  padding: 4rem 5rem 2rem;
+}
+
+#footer i {
+  padding: 16px 6px;
+}
+
+/****************************** Media Query  **************************/
+
+/*********** ScreenSize 770px ********/
+@media (max-width: 770px) {
+
+  /* Elements */
+  em {
+    padding-right: 1rem;
+    padding-top: 1rem;
+    display: block;
+  }
+
+  /* Navbar */
+  nav {
+    text-align: left;
+  }
+
+  /* Title */
+  #title {
+
+    height: max-content;
+  }
+
+  #title h1 {
+    font-size: 2.5rem;
+  }
+  #title button {
+    font-size: 1rem;
+  }
+
+  .iphone-image {
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+    position: static;
+    transform: rotate(0);
+  }
+
+  /* Features */
+  #features {
+    position: static;
+  }
+
+  /* Pricing */
+  .pricing-cards {
+    padding: 1.5rem 1rem;
+  }
+
+  /* Call to Action */
+  #cta h1 {
+    padding: 0;
+  }
+}
+
+/*********** ScreenSize 1000px ********/
+@media (max-width: 1000px) {
+
+  /* Call to Action */
+  #cta h1 {
+    padding: 0;
+  }
+}
